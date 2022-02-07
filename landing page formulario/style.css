@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'lato', sans-serif;
+}
+
+header {
+   background-color: #ddcf91a4; 
+   background-size: cover;
+   height: 80px;
+}
+
+body {
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+    background-image: url(imagens/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabecalho-imagem {
+    height: 80px;
+    padding-left: 100px;
+}
+
+.cabecalho-texto {
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.conteudo {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-weight: 600;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.mercado {
+    color: #ddcf91;
+    font-weight: 900;
+}
+
+.conteudo-principal-escrito-texto {
+    font-weight: 900;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.conteudo-principal-escrito-texto-p {
+    color: rgb(193, 198, 202);
+    font-size: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    backdrop-filter: contrast(10%);
+}
+
+.formulario-texto {
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.formulario-texto1 {
+    color: aliceblue;
+}
+
+.formulario-botao {
+    color: aliceblue;
+    background-color: black;
+    font-size: 30px;
+}
+
+.formulario-texto2 {
+    color: aliceblue;
+}
+
+form {
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+.formulario-dados-todos {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #ddcf91a4;
+    color: #FFF;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
